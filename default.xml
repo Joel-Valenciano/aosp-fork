@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+	<remote	name="aosp"
+			fetch="https://android.googlesource.com"
+			revison="android-9.0.0_r36" />
+
+	<remote name="github"
+			fetch="https://github.com"
+			revision="master" />
+
+	<remote name="perkeep"
+			fetch="https://perkeep.googlesource.com"
+			revision="master" />
+
+	<remote name="r8"
+			fetch="https://r8.googlesource.com"
+			revision="master" />
+
+	<default remote="aosp"
+			 revision="refs/tags/android-9.0.0_r36" />
+
+	<project path="build/make" name="platform/build" >
+		<linkfile src="core/root.mk" dest="Makefile" />
+		<linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+		<linkfile src="core" dest="build/core" />
+		<linkfile src="target" dest="build/target" />
+		<linkfile src="tools" dest="build/tools" />
+	</project>
+	<project path="build/blueprint" name="platform/build/blueprint" />
+	<project path="build/soong" name="platform/build/soong" />
+
+	<project path="device/common" name="device/common" />
+	<project path="device/sample" name="device/sample" />
+	<project path="device/generic/goldfish" name="device/generic/goldfish" />
+	<project path="device/generic/qemu" name="device/generic/qemu" />
+	<project path="device/generic/x86" name="device/generic/x86" />
+
+	<project path="external/icu" name="platform/external/icu" />
+	<project path="external/zlib" name="platform/external/zlib" />
+	<project path="external/perkeep" name="perkeep" remote="perkeep" />
+
+	<project path="frameworks/base" name="platform/frameworks/base" />
+	<project path="frameworks/native" name="platform/frameworks/native" />
+	<project path="frameworks/support" name="platform/frameworks/support" />
+
+	<project path="prebuilts/go/linux-x86" name="platform/prebuilts/go/linux-x86" />
+
+	<project path="system/art" name="platform/art" />
+	<project path="system/bionic" name="platform/bionic" />
+	<project path="system/core" name="platform/system/core" />
+	<project path="system/dalvik" name="platform/dalvik" />
+	<project path="system/libcore" name="platform/libcore" />
+	<project path="system/libnativehelper" name="platform/libnativehelper" />
+
+	<project path="system/r8" name="r8" remote="r8" />
+
+<!-- Uncomment next line to clone oe-core repo -->
+	<!-- <include name="openembedded.xml" /> -->
+
+</manifest>
