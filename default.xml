@@ -47,7 +47,7 @@
 
 	<project path="hardware/interfaces" name="platform/hardware/interfaces" />
 
-	<project path="manifest" name="manifest" remote="github" />
+	<project path="manifest" name="Joel-Valenciano/manifest" remote="github" />
 
 	<project path="prebuilts/go/linux-x86" name="platform/prebuilts/go/linux-x86" />
 
