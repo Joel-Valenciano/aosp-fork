@@ -50,6 +50,7 @@
 	<project path="manifest" name="Joel-Valenciano/aosp-fork" remote="github" />
 
 	<project path="prebuilts/go/linux-x86" name="platform/prebuilts/go/linux-x86" />
+	<project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" />
 
 	<project path="system/art" name="platform/art" />
 	<project path="system/bionic" name="platform/bionic" />
