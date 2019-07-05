@@ -47,6 +47,8 @@
 
 	<project path="hardware/interfaces" name="platform/hardware/interfaces" />
 
+	<project path="manifest" name="Joel-Valenciano/aosp-fork" remote="github" />
+
 	<project path="prebuilts/go/linux-x86" name="platform/prebuilts/go/linux-x86" />
 
 	<project path="system/art" name="platform/art" />
