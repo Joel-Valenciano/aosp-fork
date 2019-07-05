@@ -27,7 +27,9 @@
 		<linkfile src="tools" dest="build/tools" />
 	</project>
 	<project path="build/blueprint" name="platform/build/blueprint" />
-	<project path="build/soong" name="platform/build/soong" />
+	<project path="build/soong" name="platform/build/soong" >
+		<linkfile src="root.bp" dest="Android.bp" />
+	<project/>
 
 	<project path="device/common" name="device/common" />
 	<project path="device/sample" name="device/sample" />
