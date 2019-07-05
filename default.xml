@@ -51,7 +51,11 @@
 	<project path="system/core" name="platform/system/core" />
 	<project path="system/dalvik" name="platform/dalvik" />
 	<project path="system/libcore" name="platform/libcore" />
+	<project path="system/libhidl" name="platform/system/libhidl" />
+	<project path="system/libhwbinder" name="platform/system/libhwbinder" />
 	<project path="system/libnativehelper" name="platform/libnativehelper" />
+	<project path="system/tools/aidl" name="platform/system/tools/aidl" />
+	<project path="system/tools/hidl" name="platform/system/tools/hidl" />
 
 	<project path="system/r8" name="r8" remote="r8" />
 
