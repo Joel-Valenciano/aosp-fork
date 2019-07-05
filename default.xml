@@ -41,6 +41,7 @@
 	<project path="external/zlib" name="platform/external/zlib" />
 
 	<project path="frameworks/base" name="platform/frameworks/base" />
+	<project path="frameworks/hardware/interfaces" name="platform/frameworks/hardware/interfaces" />
 	<project path="frameworks/native" name="platform/frameworks/native" />
 	<project path="frameworks/support" name="platform/frameworks/support" />
 
