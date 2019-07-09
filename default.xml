@@ -41,7 +41,7 @@
 	<project path="external/icu" name="platform/external/icu" />
 	<project path="external/llvm" name="platform/external/llvm" />
 	<project path="external/perkeep" name="perkeep" remote="perkeep" />
-	<project path="external/tinyalsa" name="external/tinyalsa" />
+	<project path="external/tinyalsa" name="platform/external/tinyalsa" />
 	<project path="external/zlib" name="platform/external/zlib" />
 
 	<project path="frameworks/base" name="platform/frameworks/base" />
